@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sureni Perera"
+        android:textAlignment="center"
+        android:textColor="#104B9A"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/mobileNumber"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0772584568"
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+
+        <ImageView
+            android:id="@+id/addNumber"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_add_box_24"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sureni@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#104B9A"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textColor="#104B9A"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/feedbackbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Feedback"/>
+    <Button
+        android:id="@+id/hotlinebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hotline:1311"/>
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Logout"/>
+
+
+
+
+</LinearLayout>

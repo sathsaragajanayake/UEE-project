@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CurrentOrders">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/09/2021"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Order ID:"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="245176"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Dealer:"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/dealer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chandana Stores"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.1750.00"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pin"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degalawatte , Ranala"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="1.5 Litro Refill"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1QTY"
+                android:textSize="15dp"
+                android:textColor="#104B9A"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cancel Order"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#104B9A"
+            android:text="Pending Order"/>
+
+    </LinearLayout>
+
+</LinearLayout>

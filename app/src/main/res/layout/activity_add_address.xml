@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#104B9A"
+    android:padding="40dp"
+    android:layout_centerInParent="true">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:text="ADD ADDRESS"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Deliver To"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Select Place"
+
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="District"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <Spinner
+        android:id="@+id/static_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Address In Line One"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/addressline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Address In Line One"
+
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Address In Line Two"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/addressline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Address In Line Two"
+
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="City"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="City"
+
+
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="#878787"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+   <Button
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Location Picker"
+       android:id="@+id/picker"
+       android:backgroundTint="#D60131"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:backgroundTint="#369DF7"/>
+
+</LinearLayout>
